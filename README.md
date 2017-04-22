@@ -10,7 +10,12 @@
 
 # Explanation
 Google Apis connection boilerplate explained here:
+
 https://developers.google.com/drive/v3/web/quickstart/nodejs
+
 except that "private" directory is used for both client_secret.json and credentials
+
 Credentials file has been moved to 'private/credentials.json'
+
 if that file doesnt exist, cli/web authorization process is triggered
+
